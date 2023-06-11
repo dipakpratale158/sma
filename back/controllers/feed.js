@@ -7,7 +7,7 @@ exports.getPosts = (req, res, next) => {
         content: 'This is the first post!',
         imageUrl: 'images/duck.jpg',
         creator: {
-          name: 'Dipak'
+          name: 'Maximilian'
         },
         createdAt: new Date()
       }
@@ -25,7 +25,7 @@ exports.createPost = (req, res, next) => {
       _id: new Date().toISOString(),
       title: title,
       content: content,
-      creator: { name: 'Dipak' },
+      creator: { name: 'Maximilian' },
       createdAt: new Date()
     }
   });
